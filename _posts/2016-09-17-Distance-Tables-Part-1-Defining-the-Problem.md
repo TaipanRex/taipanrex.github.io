@@ -56,6 +56,7 @@ segment $$\overline{vw}$$ does not intersect the interior of any obstacle
 in $$S$$.
 
 To better understand the visibility graph, lets look at the naïve algorithm:
+
 ```
 G <-- all vertices of S
 for each vertex v in G                                            #O(n)
@@ -65,6 +66,7 @@ for each vertex v in G                                            #O(n)
             vertex v and w are visible to each other
                 G <-- edge v to w
 ```
+
 To build the visibility graph naïvely, we add all the vertices from our set of
 obstacles to visibility graph $$G$$. For each vertex $$v$$ in $$G$$, we check it
 against all the other vertices in $$G$$ to see which vertices are visible to $$v$$.
