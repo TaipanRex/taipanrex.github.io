@@ -19,7 +19,7 @@ email: christian@reksten-monsen.com
 description: > # this means to ignore newlines until "baseurl:"
   Technical articles on computer programming in the maritime industry.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "taipanrex.github.io" # the base hostname & protocol for your site
+url: "http://taipanrex.github.io" # the base hostname & protocol for your site
 github_username:  TaipanRex
 
 # Build settings
