@@ -97,7 +97,7 @@ dissertation and was the first non-trivial solution to the visibility graph
 problem. His algorithm and runs in $$O(n^2 log_2 n)$$ time - that is 307 million
 commands instead of 125 billion - a huge improvement.
 
-Lee's visibility graph algorithm will be the subject of [part 2](https://taipanrex.github.io/2016/09/19/Distance-Tables-Part-2-Lees-Visibility-Graph-Algorithm.html) of this article
+Lee's visibility graph algorithm will be the subject of [part 2](https://taipanrex.github.io/2016/10/19/Distance-Tables-Part-2-Lees-Visibility-Graph-Algorithm.html) of this article
 series. My Python implementation is available on Github as a open source package,
 [Pyvisgraph](https://github.com/TaipanRex/pyvisgraph).
 
