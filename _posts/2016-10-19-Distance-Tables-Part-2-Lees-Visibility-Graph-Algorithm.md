@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Distance Tables Part 2: Lee's Visibility Graph Algorithm"
-date:   2016-09-19 17:20:00 +0800
+date:   2016-10-19 17:20:00 +0800
 ---
 In [part 1](https://taipanrex.github.io/2016/09/17/Distance-Tables-Part-1-Defining-the-Problem.html)
 I defined that the problem is to implement a visibility graph
