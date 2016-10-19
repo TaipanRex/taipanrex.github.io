@@ -59,12 +59,13 @@ To better understand the visibility graph, lets look at the naïve algorithm:
 
 ```
 G <-- all vertices of S
+VG <-- empty visibility graph
 for each vertex v in G                                            #O(n)
     for each vertex w in {G - v}                                  #O(n)
         for each edge e in S                                      #O(e)
             if the arc from v to w does not intersect any edge e then
             vertex v and w are visible to each other
-                G <-- edge v to w
+                VG <-- edge v to w
 ```
 
 To build the visibility graph naïvely, we add all the vertices from our set of
@@ -96,7 +97,8 @@ dissertation and was the first non-trivial solution to the visibility graph
 problem. His algorithm and runs in $$O(n^2 log_2 n)$$ time - that is 307 million
 commands instead of 125 billion - a huge improvement.
 
-Lee's visibility graph algorithm will be the subject of Part 2 of this article
-series.
+Lee's visibility graph algorithm will be the subject of [part 2](https://taipanrex.github.io/2016/09/19/Distance-Tables-Part-2-Lees-Visibility-Graph-Algorithm.html) of this article
+series. My Python implementation is available on Github as a open source package,
+[Pyvisgraph](https://github.com/TaipanRex/pyvisgraph).
 
 [^1]: [http://www2.atobviaconline.com/Pages/HistoryOfTheTables](http://www2.atobviaconline.com/Pages/HistoryOfTheTables)
